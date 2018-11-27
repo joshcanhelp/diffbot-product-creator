@@ -1,4 +1,4 @@
-Diffbot Product Creator
+Diffbot Product Creator in WordPress
 =================
 
 Create products in the WordPress database using just a URL. This plugin uses the Diffbot API to query product data and return key fields back to be saved.
