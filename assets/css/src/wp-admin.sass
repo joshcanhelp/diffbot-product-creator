@@ -1,0 +1,59 @@
+//
+// Add Product page
+//
+
+.dbprod-add-product-wrap
+
+	h1
+		margin-bottom: 0.4em
+
+.dbprod-add-product-form
+
+	.label-text
+		font-weight: bold
+
+	input[type=url]
+		padding: 1%
+		width: 98%
+		margin: 0 0 0.5em
+
+.dbprod-message
+	display: inline-block
+	padding-left: 1em
+	vertical-align: middle
+	font-weight: bold
+	font-size: 1.1em
+	line-height: 2em
+
+	&.dbprod-msg-error
+		color: #d01212
+
+	&.dbprod-msg-success
+		color: #56bd0a
+
+.dbprod-loading
+	display: none
+	margin: 0.5em 0 0 0.5em
+
+	&.showing
+		display: inline-block
+
+.dbprod-add-product-result
+	display: none
+	padding: 1.5em
+	margin: 2em 2em 0
+	background: #f6f6f6
+
+	&.showing
+		display: block
+
+	.button
+		float: right
+		margin: 0 0 2em 2em
+
+	h3
+		margin: 0 0 0.4em
+
+	@media (max-width: 600px)
+		margin-left: 0
+		margin-right: 0
